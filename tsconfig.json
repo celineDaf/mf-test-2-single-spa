@@ -1,0 +1,12 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "jsx": "preserve",
+    // "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "dist"
+  },
+  "files": ["src/crit-test-mf-test-2.tsx"],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
